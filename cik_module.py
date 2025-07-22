@@ -1,3 +1,6 @@
+# Name:Ernest Azukaeme
+# Project CIK lookup
+
 import requests
 
 class SecEdgar:
@@ -7,7 +10,7 @@ class SecEdgar:
         self.ticker_dict = {}
 
         headers = {
-            'user-agent': 'YourCompany your_email@domain.com'
+            'user-agent': 'MLT CP tejiriaeducation@gmail.com'
         }
         r = requests.get(self.fileurl, headers=headers)
 
@@ -18,7 +21,7 @@ class SecEdgar:
         self.filejson = r.json()
         print(self.filejson)
 
-        # build our lookup tables
+        # Building the lookup table
         self.cik_json_to_dict()
 
 # Fills name_dict and tciket_dict dictinaniers using data from the json files
