@@ -16,9 +16,7 @@ class SecEdgar:
 
         self.filejson = r.json()
 
-
         print(r.text)
-        self.filejson = r.json()
         print(self.filejson)
 
         # Building the lookup table
