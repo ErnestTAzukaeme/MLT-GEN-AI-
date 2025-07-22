@@ -46,4 +46,3 @@ class SecEdgar:
 # instantiate and run
 se = SecEdgar('https://www.sec.gov/files/company_tickers.json')
 
-print(se.ticker_to_cik('AAPL'))
