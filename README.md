@@ -1,6 +1,6 @@
 # MLT CP 27 Summer Project
 
-This repository contains my solutions to the **Build Your Own Full Stack LLM Service on AWS** course from Gerald Spivey’s MLT Career Prep (CP 27) program. Each file corresponds to one of the course projects.
+This repository Will contain my solutions to the **Build Your Own Full Stack LLM Service on AWS** course from Gerald Spivey’s MLT Career Prep (CP 27) program. Each file corresponds to one of the course projects.
 
 ## Project files
 
