@@ -6,7 +6,7 @@ This repository Will contain my solutions to the **Build Your Own Full Stack LLM
 
 | File                  | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| `cik_lookup.py`       | Simple CIK lookup utility: loads SEC ticker JSON and builds case‑insensitive mappings from company name or ticker to its 10‑digit CIK. |
+| `cik_module.py`       | Simple CIK lookup utility: loads SEC ticker JSON and builds case‑insensitive mappings from company name or ticker to its 10‑digit CIK. |
 
 ---
 
