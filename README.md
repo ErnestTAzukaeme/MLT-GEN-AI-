@@ -1,14 +1,16 @@
-# MLT CP 27 Summer Project
+# MLT CP 27 Summer Project
 
-This repository Will contain my solutions to the **Build Your Own Full Stack LLM Service on AWS** course from Gerald Spivey’s MLT Career Prep (CP 27) program. Each file corresponds to one of the course projects.
+This repository contains my work for **Build Your Own Full Stack LLM Service on AWS**, part of Gerald Spivey’s **MLT Career Prep (CP 27)** program. The project integrates **AWS Lambda**, **Bedrock (Claude Sonnet)**, and **SEC EDGAR filings** to answer financial questions from company reports.
 
-## Project files
+## Project Files
 
-| File                  | Description                                                  |
-| --------------------- | ------------------------------------------------------------ |
-| `cik_module.py`       | Simple CIK lookup utility: loads SEC ticker JSON and builds case‑insensitive mappings from company name or ticker to its 10‑digit CIK. |
+| File            | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| `cik_module.py` | Utility for looking up **company CIKs** from SEC’s `company_tickers.json`.  |
+| `10Q_module.py` | AWS **Lambda function** that:<br>– Accepts a question, ticker, year, and quarter<br>– Retrieves the company’s 10-K or 10-Q filing<br>– Builds a context prompt<br>– Calls **Claude Sonnet** on AWS Bedrock to generate an answer. |
 
 ---
 
-*Summer project for Gerald Spivey’s MLT CP 27 program*  
+*Summer project for Gerald Spivey’s MLT CP 27 program*  
 *Implemented by Ernest Azukaeme*  
+
